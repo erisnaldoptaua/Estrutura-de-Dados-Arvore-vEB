@@ -1,9 +1,9 @@
 
-===========================================================
-===     ÁRVORE VAN EM DE BOAS COM TABELA DE DISPERSÃO   ===
-===========================================================
+=====================================================
+    ÁRVORE VAN EMDE BOAS COM TABELA DE DISPERSÃO  
+========================================================
 
-Implementação em Java (openjdk 21.0.10) de uma árvore Van em de Boas (VeB) que utiliza Tabela de Dispersão Dinâmica com Table Doubling (ClusterMAP). Garantindo espaço linear O(n) ao armazenar apenas clusters Ativo( Não vazio). A classe ClusterMap, implementa Table Doubling (dobrando a capacidade quando o fator de carga atinge 0.75) e Halving (reduzindo a capacidade quando cai para 0.25). Assim, não vamos utilizar um tamanho de array fixo de 2^16 para um Universo = 32 bits. A cada inclusão e remoção é atualizado o resumo e o valor mínimo mantido fora dos clusters para eficiência.
+Implementação em Java (openjdk 21.0.10) de uma árvore Van emde Boas (VeB) que utiliza Tabela de Dispersão Dinâmica com Table Doubling (ClusterMAP). Garantindo espaço linear O(n) ao armazenar apenas clusters Ativo( Não vazio). A classe ClusterMap, implementa Table Doubling (dobrando a capacidade quando o fator de carga atinge 0.75) e Halving (reduzindo a capacidade quando cai para 0.25). Assim, não vamos utilizar um tamanho de array fixo de 2^16 para um Universo = 32 bits. A cada inclusão e remoção é atualizado o resumo e o valor mínimo mantido fora dos clusters para eficiência.
 
 
 
